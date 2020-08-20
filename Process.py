@@ -18,6 +18,15 @@ repleace_works=0
 int(repleace_works)
 
 
+
+#Remove this later, just for testing purposes
+if 'tesla' in code:
+    code = code.replace('tesla', 'BMW')
+    repleace_works = repleace_works + 1
+
+
+
+
 #Longer Term Para Section
 
 
@@ -48,12 +57,6 @@ if 'Space Shuttle Columbia' in code:
     ##Single/Dual Word para
 if ' ' in code:
     pass
-
-
-#Remove this later, just for testing purposes
-if 'tesla' in code:
-    code = code.replace('tesla', 'BMW')
-    repleace_works = repleace_works + 1
 
 
 
