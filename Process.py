@@ -12,13 +12,13 @@ code=code
 
 
 
-##Repleace Number Counter
+    ##Number Counter for user display
 repleace_works=0
 int(repleace_works)
 
 
 
-#Remove this later, just for testing purposes
+    ##Remove this later, just for testing purposes
 if 'tesla' in code:
     code = code.replace('tesla', 'BMW')
     repleace_works = repleace_works + 1
@@ -26,10 +26,10 @@ if 'tesla' in code:
 
 
 
-#Longer Term Para Section
+    ##Longer Term Para Section
 
 
-#Short Term Para
+    ##Short Term Para
 
 
         ###General English
