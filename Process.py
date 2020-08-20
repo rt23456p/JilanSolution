@@ -65,5 +65,5 @@ if ' ' in code:
 print(" ")
 print(" ")
 print("Work Done: We repleaced a total of " + str(repleace_works) + " words/short terms")
-print("Here is the output in the next line")
+print("The output in the next line")
 print(code)
