@@ -4,7 +4,8 @@ import random
 
 
 #Import user entered code file
-code="International corporation, ~JilanSolution_Sudo"
+
+from usercode import code
 
 
 
@@ -18,24 +19,16 @@ int(repleace_works)
 word_counter = len(code.split())
 word_counter = word_counter - 1
 
-
-
-    ##Remove this later, just for testing purposes, remove later
-while '~JilanSolution_Sudo' in code:
+while '~JilanSolution_SudoA' in code:
     rangenint = random.randint(1,3)
     if rangenint == 1:
-        code = code.replace('~JilanSolution_Sudo', ' ',1)
+        code = code.replace('~JilanSolution_SudoA', ' ',1)
     if rangenint == 2:
-        code = code.replace('~JilanSolution_Sudo', ' ',1)
+        code = code.replace('~JilanSolution_SudoA', ' ',1)
     if rangenint == 3:
-        code = code.replace('~JilanSolution_Sudo', ' ',1)
+        code = code.replace('~JilanSolution_SudoA', ' ',1)
 
-    ##Longer Term Para Section
-
-    ##Short Term Para
-
-
-        ###General English
+    ##General English
 
 
 #UM-1
@@ -92,13 +85,14 @@ if 'Space Shuttle Columbia' in code:
 
 
     ##Single/Dual Word para
-    
+
 
 
 #Output section
 print(" ")
 print(" ")
+print(" ")
 print ("The number of words you enter are : " + str(word_counter))
 print("Work Done: We repleaced a total of " + str(repleace_works) + " words/short terms")
-print("View your output in the next line")
+print("View your output in the next line:")
 print(code)
