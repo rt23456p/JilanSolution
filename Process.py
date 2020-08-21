@@ -52,6 +52,25 @@ while 'an example of' in code:
     if rangenint == 2:
         code = code.replace('an example of', 'a case in point of',1)
 
+#UM-2
+while 'International corporation' in code:
+    rangenint = random.randint(1,3)
+    if rangenint == 1:
+        code = code.replace('International corporation', 'Multinational corporation',1)
+    if rangenint == 2:
+        code = code.replace('International corporation', 'Compaines that do businesses all over the globe',1)
+    if rangenint == 3:
+        code = code.replace('International corporation', 'Compaines that do businesses with clients all over the world',1)
+while 'international corporation' in code:
+    rangenint = random.randint(1,3)
+    if rangenint == 1:
+        code = code.replace('international corporation', 'Multinational corporation',1)
+    if rangenint == 2:
+        code = code.replace('international corporation', 'Compaines that do businesses all over the globe',1)
+    if rangenint == 3:
+        code = code.replace('international corporation', 'Compaines that do businesses with clients all over the world',1)
+
+
 
 if 'faced some issues' in code:
     code = code.replace('faced some issues', 'faced a variety of issue')
