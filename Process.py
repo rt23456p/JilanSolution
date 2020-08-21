@@ -1,7 +1,3 @@
-
-
-
-
 #import all resources needed
 
 import random
@@ -10,7 +6,6 @@ import random
 #Import user entered code file
 from usercode import code
 code=code
-
 
 
 
