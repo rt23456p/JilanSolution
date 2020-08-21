@@ -20,7 +20,7 @@ word_counter = len(code.split())
 
 
     ##Remove this later, just for testing purposes, remove later
-while 'tesla' in code:
+while 'trump' in code:
     rangenint = random.randint(1,3)
     if rangenint == 1:
         code = code.replace('tesla', 'BMW',1)
@@ -39,36 +39,36 @@ while 'tesla' in code:
 
 
 #UM-1
-while 'An example of' in code:
-    rangenint = random.randint(1,2)
-    if rangenint == 1:
-        code = code.replace('An example of', 'An illustration of',1)
-    if rangenint == 2:
-        code = code.replace('An example of', 'A case in point of',1)
-while 'an example of' in code:
-    rangenint = random.randint(1,2)
-    if rangenint == 1:
-        code = code.replace('an example of', 'an illustration of',1)
-    if rangenint == 2:
-        code = code.replace('an example of', 'a case in point of',1)
+    while 'An example of' in code:
+        rangenint = random.randint(1,2)
+        if rangenint == 1:
+            code = code.replace('An example of', 'An illustration of',1)
+        if rangenint == 2:
+            code = code.replace('An example of', 'A case in point of',1)
+    while 'an example of' in code:
+        rangenint = random.randint(1,2)
+        if rangenint == 1:
+            code = code.replace('an example of', 'an illustration of',1)
+        if rangenint == 2:
+            code = code.replace('an example of', 'a case in point of',1)
 
 #UM-2
-while 'International corporation' in code:
-    rangenint = random.randint(1,3)
-    if rangenint == 1:
-        code = code.replace('International corporation', 'Multinational corporation',1)
-    if rangenint == 2:
-        code = code.replace('International corporation', 'Compaines that do businesses all over the globe',1)
-    if rangenint == 3:
-        code = code.replace('International corporation', 'Compaines that do businesses with clients all over the world',1)
-while 'international corporation' in code:
-    rangenint = random.randint(1,3)
-    if rangenint == 1:
-        code = code.replace('international corporation', 'Multinational corporation',1)
-    if rangenint == 2:
-        code = code.replace('international corporation', 'Compaines that do businesses all over the globe',1)
-    if rangenint == 3:
-        code = code.replace('international corporation', 'Compaines that do businesses with clients all over the world',1)
+    while 'International corporation'.strip() in code:
+        rangenint = random.randint(1,3)
+        if rangenint == 1:
+            code = code.replace('International corporation', 'Multinational corporation',1).strip()
+        if rangenint == 2:
+            code = code.replace('International corporation', 'Compaines that do businesses all over the globe',1).strip()
+        if rangenint == 3:
+            code = code.replace('International corporation', 'Compaines that do businesses with clients all over the world',1).strip()
+    while 'international corporation' in code:
+        rangenint = random.randint(1,3).strip()
+        if rangenint == 1:
+            code = code.replace('international corporation', 'Multinational corporation',1).strip()
+        if rangenint == 2:
+            code = code.replace('international corporation', 'Compaines that do businesses all over the globe',1).strip()
+        if rangenint == 3:
+            code = code.replace('international corporation', 'Compaines that do businesses with clients all over the world',1).strip()
 
 
 
