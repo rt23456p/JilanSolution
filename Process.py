@@ -20,14 +20,14 @@ word_counter = len(code.split())
 
 
     ##Remove this later, just for testing purposes, remove later
-while 'trump' in code:
+while '~JilanSolution_Sudo' in code:
     rangenint = random.randint(1,3)
     if rangenint == 1:
-        code = code.replace('trump', 'BMW',1)
+        code = code.replace('~JilanSolution_Sudo', ' ',1)
     if rangenint == 2:
-        code = code.replace('trump', 'porsche',1)
+        code = code.replace('~JilanSolution_Sudo', ' ',1)
     if rangenint == 3:
-        code = code.replace('trump', 'Honda',1)
+        code = code.replace('~JilanSolution_Sudo', ' ',1)
 
     ##Longer Term Para Section
 
