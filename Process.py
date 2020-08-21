@@ -23,14 +23,13 @@ word_counter = len(code.split())
 while 'trump' in code:
     rangenint = random.randint(1,3)
     if rangenint == 1:
-        code = code.replace('tesla', 'BMW',1)
+        code = code.replace('trump', 'BMW',1)
     if rangenint == 2:
-        code = code.replace('tesla', 'porsche',1)
+        code = code.replace('trump', 'porsche',1)
     if rangenint == 3:
-        code = code.replace('tesla', 'Honda',1)
+        code = code.replace('trump', 'Honda',1)
 
     ##Longer Term Para Section
-
 
     ##Short Term Para
 
@@ -99,3 +98,4 @@ print ("The number of words you enter are : " + str(word_counter))
 print("Work Done: We repleaced a total of " + str(repleace_works) + " words/short terms")
 print("View your output in the next line")
 print(code)
+print("hello world")
