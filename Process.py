@@ -4,8 +4,7 @@ import random
 
 
 #Import user entered code file
-from usercode import code
-code=code
+code="International corporation, ~JilanSolution_Sudo"
 
 
 
@@ -17,6 +16,8 @@ repleace_works=0
 int(repleace_works)
     ##Word Count for user input
 word_counter = len(code.split())
+word_counter = word_counter - 1
+
 
 
     ##Remove this later, just for testing purposes, remove later
@@ -56,18 +57,24 @@ while '~JilanSolution_Sudo' in code:
         rangenint = random.randint(1,3)
         if rangenint == 1:
             code = code.replace('International corporation', 'Multinational corporation',1).strip()
+            repleace_works= repleace_works + 1
         if rangenint == 2:
             code = code.replace('International corporation', 'Compaines that do businesses all over the globe',1).strip()
+            repleace_works= repleace_works + 1
         if rangenint == 3:
             code = code.replace('International corporation', 'Compaines that do businesses with clients all over the world',1).strip()
+            repleace_works= repleace_works + 1
     while 'international corporation' in code:
         rangenint = random.randint(1,3).strip()
         if rangenint == 1:
             code = code.replace('international corporation', 'Multinational corporation',1).strip()
+            repleace_works= repleace_works + 1
         if rangenint == 2:
             code = code.replace('international corporation', 'Compaines that do businesses all over the globe',1).strip()
+            repleace_works= repleace_works + 1
         if rangenint == 3:
             code = code.replace('international corporation', 'Compaines that do businesses with clients all over the world',1).strip()
+            repleace_works= repleace_works + 1
 
 
 
@@ -85,10 +92,6 @@ if 'Space Shuttle Columbia' in code:
 
 
     ##Single/Dual Word para
-if ' ' in code:
-    pass
-
-
 
 
 #Output section
@@ -98,4 +101,3 @@ print ("The number of words you enter are : " + str(word_counter))
 print("Work Done: We repleaced a total of " + str(repleace_works) + " words/short terms")
 print("View your output in the next line")
 print(code)
-print("hello world")
