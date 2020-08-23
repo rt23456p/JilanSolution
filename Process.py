@@ -9,6 +9,8 @@ from usercode import code
 
 
 
+
+
 #Code Section, don't touch it unless you know python well!
 
 
@@ -76,13 +78,6 @@ if 'faced some issues' in code:
 
 
 
-
-
-
-
-
-
-
         ###Aerospace
 if 'Space Shuttle Challenger' in code:
     code = code.replace('Space Shuttle Challenger', 'American Shuttle Challenger')
@@ -92,8 +87,6 @@ if 'Space Shuttle Columbia' in code:
 
 
     ##Single/Dual Word para
-
-
 
 #Output section
 print(" ")
