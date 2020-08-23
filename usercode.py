@@ -3,4 +3,4 @@
 
 
 #Below is the code section,
-code= " Airbus is an exaple of International corporation ~JilanSolution_SudoA"
+code= " Apple is an example of International corporation ~JilanSolution_SudoA"
