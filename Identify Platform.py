@@ -11,7 +11,22 @@ subject= 'summit'
 # Triggering subject
 trigger = 0
 
-if trigger == 1 in subject:
+
+if 'summit' in subject:
+    subject = subject.replace('summit', 'peak')
+    print("Trigger Active(0 Pos)")
+    trigger == 'hash'
+
+
+if trigger == 'hash':
     #Notify on the test Platform, final will not have this
-    print("Trigger Active")
+    print("Trigger Active (1 pos)")
+
 else:
+    if 'peak' in subject:
+        subject = subject.replace('peak', 'summit')
+
+
+
+#Final Test Output
+print(subject)
