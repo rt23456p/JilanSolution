@@ -2,10 +2,11 @@
 
 import random
 
+code= "Rather than Apple is an example of International corporation ~JilanSolution_SudoA"
+
 
 #Import user entered code file
 
-from usercode import code
 
 
 
@@ -70,12 +71,13 @@ while '~JilanSolution_SudoA' in code:
             code = code.replace('international corporation', 'Compaines that do businesses with clients all over the world',1).strip()
             repleace_works= repleace_works + 1
 
-#UM-3
+#UM-3(# BUG)
     while 'Rather than'.strip() in code:
-        rangeint = random.randint(1,3)
-        if rangenint == 1:
-            code = code.replace('Rather than', 'Instead of',1).strip()
-            repleace_works= repleace_works + 1
+        #rangeint = random.randint(1,1)
+        #if rangenint == 1:
+
+        code = code.replace('Rather than', 'Instead of',1).strip()
+        repleace_works= repleace_works + 1
 
 
 if 'faced some issues' in code:
