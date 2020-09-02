@@ -13,7 +13,6 @@ from usercode import code
 
 #Code Section, don't touch it unless you know python well!
 
-
     ##Number Repleace Counter for user display
 repleace_works=0
 int(repleace_works)
@@ -71,6 +70,12 @@ while '~JilanSolution_SudoA' in code:
             code = code.replace('international corporation', 'Compaines that do businesses with clients all over the world',1).strip()
             repleace_works= repleace_works + 1
 
+#UM-3
+    while 'Rather than'.strip() in code:
+        rangeint = random.randint(1,3)
+        if rangenint == 1:
+            code = code.replace('Rather than', 'Instead of',1).strip()
+            repleace_works= repleace_works + 1
 
 
 if 'faced some issues' in code:
